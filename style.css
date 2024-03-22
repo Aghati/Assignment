@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(15, 5, 20, 0.178);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form{
+    flex-grow: 1;
+}
+.center{
+    width: 350px;
+    height: 450px;
+    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+}
+h1{
+    margin-top: 30px;
+    width: 50%;
+   
+}
+input{
+    width: 80%;
+    height: 14%;
+    background: none;
+    margin-top: 10px;
+    border: none;
+    border-bottom: solid 1px black;
+    outline: none;
+}
+.submit-button{
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #537e10;
+}
+.login-with{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.btn{
+    margin-top: 10px;
+    width: 130px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+}
+.fb{
+    background-color: blue;
+    color: white;
+}
+.ggl{
+    background-color: #fA4335;
+    color: white;
+}
+@media(max-width:800px){
+    .center{
+        width: 350px;
+        height: 450px;
+    }
+}
